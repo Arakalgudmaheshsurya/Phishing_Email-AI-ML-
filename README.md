@@ -4,21 +4,20 @@ A machine learning-based phishing detection system that uses NLP to classify ema
 
 ---
 
-## 🚀 Features
+Features
 
-- 🔍 Classifies emails as **Phishing** or **Safe**
-- 🧠 Uses **TF-IDF** for feature extraction
-- 🤖 Logistic Regression model for classification
-- 🧼 Preprocesses raw email content (lowercasing, punctuation removal)
-- 🌐 Streamlit app for interactive user experience
-- 💾 Model and vectorizer are saved using `joblib`
+Classifies emails as **Phishing** or **Safe**
+Uses **TF-IDF** for feature extraction
+Logistic Regression model for classification
+Preprocesses raw email content (lowercasing, punctuation removal)
+Streamlit app for interactive user experience
+Model and vectorizer are saved using `joblib`
 
----
 
-#
-> 📌 Replace the placeholder with your own screenshot from the app.
 
----
+
+
+
 
 ## 📂 Project Structure
 
@@ -59,7 +58,7 @@ streamlit
 
 
 
-## 📥 Dataset
+
 
 This project uses a labeled phishing email dataset. You can use the one from Kaggle:
 
@@ -73,7 +72,7 @@ data/phishing_emails.csv
 
 ---
 
-## 🧪 Model Training
+ Model Training
 
 To train the model from scratch:
 
@@ -90,7 +89,7 @@ This will:
 
 ---
 
-## 💻 Run the CLI Predictor
+Run the CLI Predictor
 
 
 cd src
@@ -104,7 +103,7 @@ Paste in email content, press Enter twice, and it will return:
 
 
 
-## 🌐 Launch the Streamlit App
+ Launch the Streamlit App
 
 From the project root:
 
@@ -116,7 +115,7 @@ Then open [http://localhost:8501](http://localhost:8501) in your browser.
 
 
 
-## 🧠 Example Input
+ Example Input
 
 
 Subject: Urgent - Verify Your Account
@@ -154,7 +153,7 @@ Master’s Student | Cybersecurity & AI Enthusiast
 
 
 
-## 🛡️ Disclaimer
+Disclaimer
 
 This project is for **educational and demonstration purposes only**.  
 Do not use it to make real-world security decisions without professional validation.
